@@ -1,0 +1,5 @@
+#!/usr/bin/env sh
+#1
+DIR="$(cd "$(dirname "$0")" && pwd)"
+#2
+echo "Use Android Studio to sync; wrapper jar will be downloaded automatically."

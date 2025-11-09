@@ -1,0 +1,13 @@
+<!--1-->
+<resources>
+    <!--2-->
+    <string name="app_name">EcoMarket</string>
+    <string name="login">Ingresar</string>
+    <string name="email">Email</string>
+    <string name="password">Contraseña</string>
+    <string name="home">Inicio</string>
+    <string name="profile">Perfil</string>
+    <string name="logout">Salir</string>
+    <string name="camera">Cámara</string>
+    <string name="gallery">Galería</string>
+</resources>

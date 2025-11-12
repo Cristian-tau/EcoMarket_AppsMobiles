@@ -1,0 +1,17 @@
+<!-- (1) -->
+<resources>
+    <!-- (2) -->
+    <color name="eco_green">#4CAF50</color>
+    <!-- (3) -->
+    <color name="eco_green_dark">#388E3C</color>
+    <!-- (4) -->
+    <color name="eco_white">#FFFFFF</color>
+    <!-- (5) -->
+    <color name="eco_gray">#F5F5F5</color>
+    <!-- (6) -->
+    <color name="black">#000000</color>
+    <!-- (7) -->
+    <color name="white">#FFFFFF</color>
+    <!-- (8) -->
+    <color name="ic_launcher_background">#E8F5E9</color>
+</resources>

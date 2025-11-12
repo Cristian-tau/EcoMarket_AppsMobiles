@@ -1,0 +1,67 @@
+// (1)
+plugins {
+    // (2)
+    id 'com.android.application'
+    // (3)
+    id 'org.jetbrains.kotlin.android'
+}
+
+// (4)
+android {
+    // (5)
+    namespace 'com.ecomarket.app'
+    // (6)
+    compileSdk 34
+
+    // (7)
+    defaultConfig {
+        // (8)
+        applicationId "com.ecomarket.app"
+        // (9)
+        minSdk 24
+        // (10)
+        targetSdk 34
+        // (11)
+        versionCode 1
+        // (12)
+        versionName "1.0"
+    }
+
+    // (13)
+    buildTypes {
+        // (14)
+        release {
+            // (15)
+            minifyEnabled false
+            // (16)
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    // (17)
+    compileOptions {
+        // (18)
+        sourceCompatibility JavaVersion.VERSION_17
+        // (19)
+        targetCompatibility JavaVersion.VERSION_17
+    }
+    // (20)
+    kotlinOptions {
+        // (21)
+        jvmTarget = '17'
+    }
+}
+
+// (22)
+dependencies {
+    // (23)
+    implementation 'androidx.core:core-ktx:1.13.1'
+    // (24)
+    implementation 'androidx.appcompat:appcompat:1.7.0'
+    // (25)
+    implementation 'com.google.android.material:material:1.12.0'
+    // (26)
+    implementation 'androidx.activity:activity-ktx:1.9.3'
+    // (27)
+    implementation 'androidx.constraintlayout:constraintlayout:2.2.0'
+}
